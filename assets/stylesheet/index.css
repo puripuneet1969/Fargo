@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    font-family: 'Noto Serif', serif;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+figure {
+    margin: 0px;
+}
+
+/* Helper Classes */
+
+.text-center {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+nav{
+    background-color: black;
+}
+
+.figure{
+    position: relative;
+}
+
+.video{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+}
+
+nav h2{
+    font-weight: bold;
+}
+
+nav img{
+    width: 200px;
+    border-radius: 50px;
+}
+
+.figure-founder{
+    position: relative;
+}
+
+.figcaption{
+    position: absolute;
+    bottom: 8%;
+    left: 4%;
+}
+
+.figcaption a{
+    font-size: 22px;
+}
+
+@media(min-width: 1200px){
+    .figcaption{
+        bottom: 18%;
+        left: 5%;
+    }
+    .figcaption a{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 768px){
+    .figcaption{
+        bottom: 7%;
+        left: 5%;
+    }
+    .figcaption a{
+        font-size: 18px;
+    }
+    
+}
+
+@media(min-width: 576px){
+    .figcaption{
+        bottom: 9%;
+        left: 5%;
+    }
+    .figcaption a{
+        font-size: 18px;
+    }
+    
+}
+
+video{
+    width: 94%;
+}
